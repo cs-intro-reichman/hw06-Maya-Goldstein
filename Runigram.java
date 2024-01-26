@@ -124,7 +124,7 @@ public class Runigram {
 
 		for (int j = 0; j < flippedImage[0].length; j++) { //runs over thr columns
 			for (int i = 0; i < flippedImage.length; i++) { //runs over the rows
-				flippedImage[i][j] = image[(image[0].length - 1) - i][j];
+				flippedImage[i][j] = image[(image.length - 1) - i][j];
 			}
 		}
 		return flippedImage;	
